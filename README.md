@@ -29,8 +29,10 @@ If you are using Linux on your development machine, you can build the native app
 ```
 mvn -Pnative native:compile
 ```
-This generates an executable file *native-image-demo* in the *target* directoy. 
+This generates the executable binary *native-image-demo* in the *target* directoy. 
 To start the executable simply execute:
 ```
 ./target/native-image-demo
 ```
+
+Check out this blog post for more infos about Spring native images: https://java-online-training.de/?p=61
