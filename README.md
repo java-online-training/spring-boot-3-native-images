@@ -1,4 +1,4 @@
-# spring-boot-3-native-images
+# Native Docker Images with Spring Boot 3
 
 To run this demo, you need to have Docker, Maven and a GraalVM installed on your machine. 
 
