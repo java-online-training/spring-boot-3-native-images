@@ -1,6 +1,6 @@
 # Native Docker Images with Spring Boot 3
 
-To run this demo, you need to have Docker, Maven and a GraalVM installed on your machine. 
+To run this demo, you need to have Docker, Maven and GraalVM for Java version 17 or later installed on your machine. 
 
 Clone the repo to your local machine:
 ```
@@ -8,8 +8,8 @@ git clone https://github.com/java-online-training/spring-boot-3-native-images
 ```
 Next, navigate into the project.
 
-# How to build a native application as a Docker imaga
-To Build a native image with Maven simply execute:
+# How to build a native application as a Docker image
+To Build a native Docker image with Maven simply execute:
 ```
 mvn -Pnative spring-boot:build-image
 ```
